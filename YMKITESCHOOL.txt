@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>École de Kitesurf</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            background-color: #000;
+        }
+        header {
+            background: url('kitesurf.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0 0;
+        }
+        nav {
+            background: #ff007f;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px 20px;
+        }
+        .services, .moniteurs, .galerie, .temoignages, .contact {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .service, .moniteur, .temoignage {
+            margin-bottom: 30px;
+        }
+        .service h3, .moniteur h3, .temoignage h3 {
+            margin-bottom: 10px;
+            color: #ff007f;
+        }
+        .galerie img, .moniteurs img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        footer {
+            background: #111;
+            text-align: center;
+            padding: 20px 0;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue à l'École de Kitesurf</h1>
+        <p>Découvrez la passion du kitesurf avec nos cours pour tous les niveaux</p>
+    </header>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#moniteurs">Moniteurs</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#temoignages">Témoignages</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="services" class="services">
+        <h2>Nos Services</h2>
+        <div class="service">
+            <h3>Cours pour Débutants</h3>
+            <p>Apprenez les bases du kitesurf avec nos cours pour débutants.</p>
+        </div>
+        <div class="service">
+            <h3>Cours Avancés</h3>
+            <p>Perfectionnez vos compétences avec nos cours avancés.</p>
+        </div>
+        <div class="service">
+            <h3>Freestyle</h3>
+            <p>Maîtrisez les figures de freestyle avec nos moniteurs experts.</p>
+        </div>
+        <div class="service">
+            <h3>Downwind</h3>
+            <p>Découvrez l'expérience unique du downwind.</p>
+        </div>
+        <div class="service">
+            <h3>Big Air</h3>
+            <p>Envolez-vous avec nos cours de big air pour les plus audacieux.</p>
+        </div>
+    </section>
+    <section id="moniteurs" class="moniteurs">
+        <h2>Nos Moniteurs</h2>
+        <div class="moniteur">
+            <h3>Jean Dupont</h3>
+            <img src="jean.jpg" alt="Jean Dupont">
+            <p>Moniteur professionnel avec 10 ans d'expérience.</p>
+        </div>
+        <!-- Ajouter plus de moniteurs ici -->
+    </section>
+    <section id="galerie" class="galerie">
+        <h2>Galerie</h2>
+        <img src="action1.jpg" alt="Action 1">
+        <img src="action2.jpg" alt="Action 2">
+        <!-- Ajouter plus de photos ici -->
+    </section>
+    <section id="temoignages" class="temoignages">
+        <h2>Témoignages</h2>
+        <div class="temoignage">
+            <h3>Marie L.</h3>
+            <p>Une expérience incroyable! Les moniteurs sont super professionnels.</p>
+        </div>
+        <!-- Ajouter plus de témoignages ici -->
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Email : contact@ecoledekitesurf.com</p>
+        <p>Téléphone : 01 23 45 67 89</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 École de Kitesurf. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
